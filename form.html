@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form.html</title>
+    <link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+</head>
+<body>
+    <div id="topnav" class="container">
+        <div class="text-center">
+            <div id="logo" class="">Blue Ribbon Animal Care<sup>&copy;</sup></div>
+        </div>
+        <nav class="navbar navbar-expand-lg justify-content-center">
+            <button id="button" class="navbar-toggler dropdown-toggle text-center" type="button" data-toggle="collapse" data-target="#myTogglerNav"
+            aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle-navigation" style="border: solid 2px bisque; color: bisque; font-family: 'Trattatello';font-size: 30px;">
+            <span class="navbar-toggler-icon"></span>Menu
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="myTogglerNav">
+            <div class="navbar-nav ">
+                <a class="nav-item nav-link mt-3 lists" href="mission.html">Mission</a>
+                <a class="nav-item nav-link mt-3 lists" href="location.html">Location</a>
+                <a class="nav-item nav-link mt-3 lists" href="services.html">Services</a>
+                <a class="nav-item nav-link mt-3 lists" href="vaccination.html">Vaccination</a>
+                <a class="nav-item nav-link mt-3 lists" href="boarding.html">Boarding</a>
+                <a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Click here to return to main page"><img src="assets/images/capstone-pics/wisdompetlogo  copy.svg" style="width: 80px;" alt="logo"></a>
+                <div class="dropdown">
+                    <p class="nav-item nav-link mt-3 dropdown-toggle lists" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors</p>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item drops" href="./bell.html">DR. Bell</a>
+                        <a class="dropdown-item drops" href="./griffis.html">Dr. Griffis</a>
+                        <a class="dropdown-item drops" href="./knightly.html">Dr. Knightly</a>
+                        <a class="dropdown-item drops" href="./harper.html">Dr. Harper</a>
+                    </div>
+                </div><!--dropdown-->
+                <a class="nav-item nav-link mt-3 lists" href="canine.html">Canine</a>
+                <a class="nav-item nav-link mt-3 lists" href="feline.html">Feline</a>
+                <a class="nav-item nav-link mt-3 lists" href="exotic.html">Exotic</a>
+                <a class="nav-item nav-link mt-3 lists" href="news.html">News</a>
+            </div><!--nav-->
+        </div><!--collapse-->
+    </nav>
+</div><!--container-->
+<div class="container jumbotron">
+    <div class="display-4 text-center text-warning">Fill out and Subscribe</div>
+    <form action="#" class="needs-validation" novalidate>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="subname">First name</label>
+                <input type="text" class="form-control" id="subname" placeholder="First name"  required>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="sublastname">Last name</label>
+                <input type="text" class="form-control" id="sublastname" placeholder="Last name"  required>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="validationCustomUsername">Email</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    </div>
+                    <input type="email" class="form-control" id="validationCustomEmail" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="subcity">City</label>
+                <input type="text" class="form-control" id="subcity" placeholder="City" required>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="substate">State</label>
+                <input type="text" class="form-control" id="substate" placeholder="State" required>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="subzip">Zip</label>
+                <input type="text" class="form-control" id="subzip" placeholder="Zip" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="subterm" required>
+                <label class="form-check-label" for="subterm">
+                    Agree to terms and conditions
+                </label>
+            </div>
+            <p class="mt-2 text-success">Questions:</p>
+            <textarea name="comments" id="" cols="30" rows="5" placeholder="Write your questions here"></textarea>
+        </div>
+        <button id="subscribe" class="btn btn-info" type="submit">Subscribe</button>
+    </form>
+    <div class="text-center text-warning">YOU SHOULD RECIEVE YOU FIRST NEWSLETTER IN 2 WEEKS</div>
+    <div class="text-center text-info">make sure to look for valuable coupons for services and more!!</div>
+</div>
+<script src="assets/jquery.js"></script>
+<script src="assets/popper.min.js"></script>
+<script src="assets/bootstrap.min.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>

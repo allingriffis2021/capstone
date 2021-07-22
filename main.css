@@ -1,0 +1,351 @@
+/* -----nav----- */
+#topnav {
+    background: radial-gradient(circle at center,rgb(1, 85, 124), rgb(0, 128, 187),rgb(96, 188, 231),rgb(0, 124, 180),rgb(1, 85, 124));
+}
+.lists {
+    font-family: "Trattatello";
+    font-size: 25px;
+    color: bisque;
+    margin: 3px;
+    text-shadow: 2px 2px rgb(1, 85, 124);
+}
+.lists:hover {
+    color: white;
+}
+.dropdown-menu {
+    background: linear-gradient(45deg,rgb(1, 85, 124), rgb(0, 128, 187),rgb(96, 188, 231),rgb(0, 124, 180),rgb(1, 85, 124));
+}
+.drops {
+    font-family: "Bradley Hand";
+    color: bisque;
+    font-size: 20px;
+}
+.dropdown-header {
+    font-size: 25px;
+}
+#logo {
+    font-family: "SignPainter";
+    color: bisque;
+    font-size: 90px;
+    text-shadow: 5px 5px rgb(1, 85, 124);
+}
+/* ----mission page------ */
+.misstext {
+    font-family: "Apple Chancery";
+    font-size: 30px;
+    color: white;
+}
+.cap {
+    font-size: 50px;
+}
+#about {
+    font-family: "Apple Chancery";
+    background-color: rgb(0, 128, 187);
+    border: solid 5px rgb(1, 85, 124);
+}
+.modal-content {
+    background-color: lightskyblue;
+    color: rgb(1, 85, 124);
+}
+.modal-title {
+    font-family: "Papyrus";
+}
+.modal-body {
+    font-family: "Papyrus";
+}
+#back {
+    background-color: rgb(1, 85, 124);
+    color: white;
+    font-family: "Papyrus";
+    font-size: 25px;
+    border: solid 3px rgb(1, 85, 124);
+}
+/* ----location page ---- */
+
+.loco {
+    font-family: "Bradley Hand";
+    color: rgb(236, 207, 171);
+}
+.ifra {
+    border: solid 10px rgb(1, 85, 124);
+}
+.locoh1 {
+    font-family: "Trattatello";
+    color: rgb(226, 167, 95);
+}
+/* ----services page ---- */
+#services {
+    background-color: rgb(224,210,193);
+}
+.accord h2 a {
+    font-family: "Trattatello";
+    color: rgb(0, 128, 187);
+}
+.items {
+    font-family: "Bradley Hand";
+    font-size: 20px;
+    color: rgb(1, 85, 124);
+}
+/* ----vaccination page */
+
+#vaccination {
+    background-color: rgb(224, 210, 193);
+}
+#vacheading {
+    font-family: "Trattatello";
+    color: rgb(0, 128, 187);
+}
+#pop {
+    font-family: "Papyrus";
+    font-size: 20px;
+}
+/* ----boarding page ---- */
+#boardback {
+    background: linear-gradient(0deg,rgb(235, 175, 102),rgb(236, 151, 46),rgb(224, 210, 193),rgb(235, 175, 102));
+}
+.doc-pic {
+    border-radius: 100px;
+}
+#docharp a {
+    color: rgb(1, 85, 124);
+}
+.boardtext {
+    font-family: "Bradley Hand";
+    color: rgb(1, 85, 124);
+    font-size: 25px;
+}
+.thank {
+    font-family: "Trattatello";
+    font-size: 45px;
+    color: rgb(0, 128, 187);
+}
+.blue {
+    font-family: "Trattatello";
+    font-size: 45px;
+    color: rgb(1, 85, 124);
+}
+#terms {
+    color: rgb(122, 122, 6);
+}
+#submit2 {
+    background-color: rgb(1, 85, 124);
+    color: white;
+    border: solid 1px white;
+}
+.listinfo {
+    font-family: "Bradley Hand";
+    color: rgb(1, 85, 124);
+    font-size: 25px;
+    list-style: none;
+}
+.listinfo2 {
+    font-family: "Bradley Hand";
+    font-size: 25px;
+    color: rgb(121, 202, 240);
+}
+#verify {
+    font-family: "Bradley Hand";
+    font-size: 25px;
+    color: rgb(1, 85, 124);
+}
+#verilab {
+    text-decoration: underline;
+}
+.ver {
+    background-color: rgb(1, 85, 124);
+    color: white;
+}
+.ver:hover {
+    color: skyblue;
+}
+/* ----- doctor page ----- */
+.docpage {
+    background-color: rgb(224, 184, 135);
+}
+.docs {
+    font-family: "Trattatello";
+    color: rgb(0, 128, 187);
+}
+.docinfo {
+    font-family: "Trattatello";
+    color: rgb(1, 85, 124);
+    font-size: 25px;
+}
+.mailinfo {
+    border: solid 2px black;
+    background-color: lightskyblue;
+    width: 300px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+/* ---- canine & feline & exotic page ---- */
+#canine  {
+    background-color: rgb(224, 184, 135);
+}
+#feline {
+    background-color: rgb(224, 184, 135);
+}
+#exotic {
+    background-color: rgb(11, 42, 172);
+}
+.dochead {
+    color: rgb(1, 85, 124);
+    font-size: 25px;
+    font-family: "Trattatello";
+}
+.dochead a {
+    color: rgb(1, 85, 124);
+}
+.dochead2 {
+    color: white;
+    font-size: 25px;
+    font-family: "Bradley Hand";
+}
+.dochead2 a {
+    color: white;
+}
+
+.doch1 {
+    color: rgb(0, 128, 187);
+    font-family: "Bradley Hand";
+    font-size: 50px;
+}
+.doch12 {
+    color: white;
+    font-family: "Bradley Hand";
+    font-size: 50px;
+}
+.info1 {
+    color: rgb(1, 85, 124);
+    font-family: "Papyrus";
+    font-size: 22px;
+}
+.info2 {
+    color: white;
+    font-family: "Papyrus";
+    font-size: 22px;
+}
+.info3 {
+    color: white;
+    font-family: "Papyrus";
+}
+
+/* ---- news page ---- */
+#newspage {
+    background-color: azure;
+}
+.newinfo {
+    font-family: "Papyrus"; 
+}
+#newsbutton {
+    background-color: bisque;
+    font-family: "Papyrus";
+    font-size: 25px;
+    color: rgb(1, 85, 124);
+    border: solid 5px rgb(1, 85, 124);
+}
+#back2 {
+    background-color: bisque;
+    color: rgb(1, 85, 124);
+    border: solid 3px rgb(1, 85, 124);
+    font-family: "Papyrus";
+    font-size: 20px;
+}
+#newscontent {
+    background-color: bisque;
+    color: rgb(1, 85, 124);
+}
+#adopt {
+    font-size: 22px;
+    font-family: "Papyrus";
+    font-weight: 900;
+}
+#adopt a {
+    color: black;
+}
+/* ---- adoption page ---- */
+#adoptpage {
+    background-color: rgb(224, 184, 135);
+}
+#local {
+    font-family: "SignPainter";
+    font-size: 45px;
+    color: rgb(1, 85, 124);
+}
+.locoh1a {
+    font-family: "Trattatello";
+    color: rgb(1, 85, 124);
+}
+.adoptinfo {
+    color: rgb(1, 85, 124);
+    font-family: "Papyrus";
+    font-size: 20px;
+}
+.humane {
+    font-family: "Papyrus";
+}
+.butinfo {
+    background-color: rgb(0, 128, 187); 
+    color: bisque;
+    font-family: "Papyrus";
+}
+
+/* --- suzy page --- */
+
+#page {
+    border: solid 2px lightgreen;
+}
+#outline {
+    border: solid 2px darkgreen;
+}
+/* ----google page ----- */
+
+#searchbox {
+    border-radius: 50px;
+}
+#plus {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border-radius: 50px;
+}
+#twitbut a {
+    color: white;
+}
+/* ----footer---- */
+
+#bottom {
+    background: radial-gradient(circle at center,rgb(1, 85, 124), rgb(0, 128, 187),rgb(96, 188, 231),rgb(0, 124, 180),rgb(1, 85, 124))
+}
+.footh3 {
+    font-family: "Trattatello";
+    color: bisque;
+    text-shadow: 2px 2px rgb(1, 85, 124);
+}
+.footitem {
+    color: bisque;
+    font-family: "Bradley Hand";
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+.footitem a {
+    color: bisque;
+    
+}
+.footitem1 a {
+    color: rgb(231, 163, 80);
+    font-family: "Trattatello";
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+#submit {
+    color: rgb(231, 163, 80);
+    font-family: "Trattatello";
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+}
+.button1 {
+    background-color: white;
+    font-family: "Trattatello";
+    font-size: 20px;
+}
